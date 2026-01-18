@@ -1,0 +1,707 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2026-01-18T04:22:50.540123758Z",
+    "phase2_ready": true,
+    "issue_count": 350,
+    "compute_time_ms": 0
+  },
+  "quick_ref": {
+    "open_count": 45,
+    "actionable_count": 41,
+    "blocked_count": 4,
+    "in_progress_count": 2,
+    "top_picks": [
+      {
+        "id": "langston-1yw4",
+        "title": "API: create_segment tool for Atlas",
+        "score": 0.2559081979036897,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): langston-8om8",
+          "📅 Last updated 12 days ago",
+          "✅ Currently unclaimed - available for work"
+        ],
+        "unblocks": 1
+      },
+      {
+        "id": "langston-zchy",
+        "title": "Workspace Cleaning Scopes Overhaul",
+        "score": 0.23333113059856872,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): langston-y4eg",
+          "📅 Last updated 8 days ago",
+          "✅ Currently unclaimed - available for work",
+          "🚨 High priority (P1) - prioritize this work"
+        ],
+        "unblocks": 1
+      },
+      {
+        "id": "langston-gbqd",
+        "title": "API: Knowledge base CRUD + search endpoints",
+        "score": 0.19534163468669677,
+        "reasons": [
+          "🔓 Unblocks 1 item(s): langston-7pmc",
+          "📅 Last updated 10 days ago",
+          "🚧 In progress - already being worked"
+        ],
+        "unblocks": 1
+      }
+    ]
+  },
+  "recommendations": [
+    {
+      "id": "langston-1yw4",
+      "title": "API: create_segment tool for Atlas",
+      "type": "task",
+      "status": "open",
+      "priority": 3,
+      "labels": [
+        "area:atlas",
+        "area:knowledge",
+        "phase:3",
+        "repo:langston-api"
+      ],
+      "score": 0.2559081979036897,
+      "breakdown": {
+        "pagerank": 0.05114523897210243,
+        "betweenness": 0.05333333333333334,
+        "blocker_ratio": 0.026000000000000002,
+        "staleness": 0.020028456853525427,
+        "priority_boost": 0.025,
+        "time_to_impact": 0.04725000000000001,
+        "urgency": 0.04101732131596782,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.23247835896410193,
+        "betweenness_norm": 0.26666666666666666,
+        "blocker_ratio_norm": 0.2,
+        "staleness_norm": 0.4005691370705085,
+        "priority_boost_norm": 0.25,
+        "time_to_impact_norm": 0.47250000000000003,
+        "urgency_norm": 0.41017321315967814,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "Deep in critical path (depth 3), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): langston-8om8",
+        "📅 Last updated 12 days ago",
+        "✅ Currently unclaimed - available for work"
+      ],
+      "unblocks_ids": [
+        "langston-8om8"
+      ]
+    },
+    {
+      "id": "langston-zchy",
+      "title": "Workspace Cleaning Scopes Overhaul",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "area:cleaning",
+        "repo:langston-workspace"
+      ],
+      "score": 0.23333113059856872,
+      "breakdown": {
+        "pagerank": 0.042789642060129474,
+        "betweenness": 0,
+        "blocker_ratio": 0.026000000000000002,
+        "staleness": 0.014998101476268481,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.04025,
+        "urgency": 0.036175098116906966,
+        "risk": 0.004000253168540635,
+        "pagerank_norm": 0.1944983730005885,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0.2,
+        "staleness_norm": 0.2999620295253696,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.3617509811690697,
+        "risk_norm": 0.04000253168540635,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.06667510561802116,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.04000253168540635,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): langston-y4eg",
+        "📅 Last updated 8 days ago",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ],
+      "unblocks_ids": [
+        "langston-y4eg"
+      ]
+    },
+    {
+      "id": "langston-8om8",
+      "title": "API: refresh_analysis tool for Atlas",
+      "type": "task",
+      "status": "open",
+      "priority": 3,
+      "labels": [
+        "area:atlas",
+        "area:knowledge",
+        "phase:3",
+        "repo:langston-api"
+      ],
+      "score": 0.20113720377710484,
+      "breakdown": {
+        "pagerank": 0.03295957148394227,
+        "betweenness": 0.02666666666666667,
+        "blocker_ratio": 0.026000000000000002,
+        "staleness": 0.0200281678070941,
+        "priority_boost": 0.025,
+        "time_to_impact": 0.04025,
+        "urgency": 0.041017098763678,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.1498162340179194,
+        "betweenness_norm": 0.13333333333333333,
+        "blocker_ratio_norm": 0.2,
+        "staleness_norm": 0.40056335614188193,
+        "priority_boost_norm": 0.25,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.41017098763677995,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Work on langston-1yw4 first to unblock this",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): langston-ku85",
+        "📅 Last updated 12 days ago",
+        "✅ Currently unclaimed - available for work",
+        "⏳ Blocked by langston-1yw4 - complete that first"
+      ],
+      "unblocks_ids": [
+        "langston-ku85"
+      ],
+      "blocked_by": [
+        "langston-1yw4"
+      ]
+    },
+    {
+      "id": "langston-gbqd",
+      "title": "API: Knowledge base CRUD + search endpoints",
+      "type": "task",
+      "status": "in_progress",
+      "priority": 2,
+      "labels": [
+        "area:platform",
+        "repo:langston-api"
+      ],
+      "score": 0.19534163468669677,
+      "breakdown": {
+        "pagerank": 0.042789642060129474,
+        "betweenness": 0.013333333333333334,
+        "blocker_ratio": 0.026000000000000002,
+        "staleness": 0.017234709351615703,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.04025,
+        "urgency": 0.03859142616961195,
+        "risk": 0.008003224352019233,
+        "pagerank_norm": 0.1944983730005885,
+        "betweenness_norm": 0.06666666666666667,
+        "blocker_ratio_norm": 0.2,
+        "staleness_norm": 0.344694187032314,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.40249999999999997,
+        "urgency_norm": 0.3859142616961194,
+        "risk_norm": 0.08003224352019232,
+        "time_to_impact_explanation": "On dependency chain (depth 2), median estimate 60m",
+        "urgency_explanation": "moderate time pressure",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.00010747840064100441,
+          "cross_repo_risk": 0,
+          "status_risk": 0.4,
+          "composite_risk": 0.08003224352019232,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Continue work on this issue",
+      "reasons": [
+        "🔓 Unblocks 1 item(s): langston-7pmc",
+        "📅 Last updated 10 days ago",
+        "🚧 In progress - already being worked"
+      ],
+      "unblocks_ids": [
+        "langston-7pmc"
+      ]
+    },
+    {
+      "id": "langston-gxri",
+      "title": "Knowledge AI: Context \u0026 Research Excellence Improvements",
+      "type": "epic",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "area:ai",
+        "repo:langston-workspace"
+      ],
+      "score": 0.180275992676643,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.031944546662553204,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04676535557868351,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.638890933251064,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.4676535557868351,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (19 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 19 days - may need review",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "langston-4jf0",
+      "title": "API: Enhance Knowledge AI system prompts with research context",
+      "type": "task",
+      "status": "open",
+      "priority": 1,
+      "labels": [
+        "area:ai",
+        "repo:langston-api"
+      ],
+      "score": 0.18027454030458848,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.03194320890977542,
+        "priority_boost": 0.07500000000000001,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04676498465845596,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.6388641781955084,
+        "priority_boost_norm": 0.75,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.46764984658455955,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (19 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 19 days - may need review",
+        "✅ Currently unclaimed - available for work",
+        "🚨 High priority (P1) - prioritize this work"
+      ]
+    },
+    {
+      "id": "langston-arg",
+      "title": "Web: Update HtmlInputFormikField for mention passthrough",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "area:forms",
+        "repo:langston-web"
+      ],
+      "score": 0.17742371360212364,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.04318730253927003,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04972206124153341,
+        "risk": 0.009444916019822246,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.8637460507854005,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.49722061241533405,
+        "risk_norm": 0.09444916019822244,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (36 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.11483053399407483,
+          "cross_repo_risk": 0,
+          "status_risk": 0.3,
+          "composite_risk": 0.09444916019822244,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 25 days - may need review",
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "langston-fg6",
+      "title": "Web: Write unit tests for Lexical mention functionality",
+      "type": "task",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "area:testing",
+        "repo:langston-web"
+      ],
+      "score": 0.17742366634592271,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.04318730252285413,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04972205321862482,
+        "risk": 0.009444868463616236,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.8637460504570825,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.4972205321862482,
+        "risk_norm": 0.09444868463616235,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (36 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.11482894878720783,
+          "cross_repo_risk": 0,
+          "status_risk": 0.3,
+          "composite_risk": 0.09444868463616235,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 25 days - may need review",
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "langston-e0u6",
+      "title": "API: Use Slack converted_pdf for oversized PPTX processing",
+      "type": "feature",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "area:knowledge",
+        "area:slack",
+        "repo:langston-api"
+      ],
+      "score": 0.16324971293442395,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.0349869768363958,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04763830952787504,
+        "risk": 0.003053698533178726,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.699739536727916,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.47638309527875033,
+        "risk_norm": 0.03053698533178726,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (21 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0.03512328443929085,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.03053698533178726,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 20 days - may need review",
+        "✅ Currently unclaimed - available for work"
+      ]
+    },
+    {
+      "id": "langston-u7yd",
+      "title": "API: Knowledge Chat - file upload support (images, attachments)",
+      "type": "feature",
+      "status": "open",
+      "priority": 2,
+      "labels": [
+        "area:knowledge",
+        "repo:langston-api"
+      ],
+      "score": 0.16290564876550037,
+      "breakdown": {
+        "pagerank": 0.023129500907755073,
+        "betweenness": 0,
+        "blocker_ratio": 0,
+        "staleness": 0.03563224340067049,
+        "priority_boost": 0.05,
+        "time_to_impact": 0.03325,
+        "urgency": 0.04764196012157491,
+        "risk": 0.0020000000000000005,
+        "pagerank_norm": 0.10513409503525033,
+        "betweenness_norm": 0,
+        "blocker_ratio_norm": 0,
+        "staleness_norm": 0.7126448680134098,
+        "priority_boost_norm": 0.5,
+        "time_to_impact_norm": 0.3325,
+        "urgency_norm": 0.47641960121574906,
+        "risk_norm": 0.020000000000000004,
+        "time_to_impact_explanation": "On dependency chain (depth 1), median estimate 60m",
+        "urgency_explanation": "aging (21 days)",
+        "risk_explanation": "Low risk - stable dependency structure",
+        "risk_signals": {
+          "fan_variance": 0,
+          "activity_churn": 0,
+          "cross_repo_risk": 0,
+          "status_risk": 0.1,
+          "composite_risk": 0.020000000000000004,
+          "explanation": "Low risk - stable dependency structure"
+        }
+      },
+      "action": "Start work on this issue",
+      "reasons": [
+        "🕐 No activity in 21 days - may need review",
+        "✅ Currently unclaimed - available for work"
+      ]
+    }
+  ],
+  "quick_wins": [
+    {
+      "id": "langston-zchy",
+      "title": "Workspace Cleaning Scopes Overhaul",
+      "score": 0.7000000000000001,
+      "reason": "Unblocks 1 items, high priority",
+      "unblocks_ids": [
+        "langston-y4eg"
+      ]
+    },
+    {
+      "id": "langston-1yw4",
+      "title": "API: create_segment tool for Atlas",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "langston-8om8"
+      ]
+    },
+    {
+      "id": "langston-8om8",
+      "title": "API: refresh_analysis tool for Atlas",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "langston-ku85"
+      ]
+    },
+    {
+      "id": "langston-gbqd",
+      "title": "API: Knowledge base CRUD + search endpoints",
+      "score": 0.6000000000000001,
+      "reason": "Unblocks 1 items",
+      "unblocks_ids": [
+        "langston-7pmc"
+      ]
+    },
+    {
+      "id": "langston-4jf0",
+      "title": "API: Enhance Knowledge AI system prompts with research context",
+      "score": 0.5,
+      "reason": "Low complexity, high priority"
+    }
+  ],
+  "blockers_to_clear": [
+    {
+      "id": "langston-1yw4",
+      "title": "API: create_segment tool for Atlas",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "langston-8om8"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "langston-8om8",
+      "title": "API: refresh_analysis tool for Atlas",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "langston-ku85"
+      ],
+      "actionable": false,
+      "blocked_by": [
+        "langston-1yw4"
+      ]
+    },
+    {
+      "id": "langston-gbqd",
+      "title": "API: Knowledge base CRUD + search endpoints",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "langston-7pmc"
+      ],
+      "actionable": true
+    },
+    {
+      "id": "langston-zchy",
+      "title": "Workspace Cleaning Scopes Overhaul",
+      "unblocks_count": 1,
+      "unblocks_ids": [
+        "langston-y4eg"
+      ],
+      "actionable": true
+    }
+  ],
+  "project_health": {
+    "counts": {
+      "total": 350,
+      "open": 45,
+      "closed": 305,
+      "blocked": 4,
+      "actionable": 41,
+      "by_status": {
+        "closed": 305,
+        "in_progress": 2,
+        "open": 43
+      },
+      "by_type": {
+        "bug": 27,
+        "chore": 2,
+        "epic": 29,
+        "feature": 13,
+        "task": 279
+      },
+      "by_priority": {
+        "0": 8,
+        "1": 122,
+        "2": 175,
+        "3": 40,
+        "4": 5
+      }
+    },
+    "graph": {
+      "node_count": 350,
+      "edge_count": 138,
+      "density": 0.0011297584936553419,
+      "has_cycles": false,
+      "phase2_ready": true
+    },
+    "velocity": {
+      "closed_last_7_days": 58,
+      "closed_last_30_days": 207,
+      "avg_days_to_close": 0.7723604101158166,
+      "weekly": [
+        {
+          "week_start": "2026-01-12T00:00:00Z",
+          "closed": 55
+        },
+        {
+          "week_start": "2026-01-05T00:00:00Z",
+          "closed": 56
+        },
+        {
+          "week_start": "2025-12-29T00:00:00Z",
+          "closed": 10
+        },
+        {
+          "week_start": "2025-12-22T00:00:00Z",
+          "closed": 42
+        },
+        {
+          "week_start": "2025-12-15T00:00:00Z",
+          "closed": 74
+        },
+        {
+          "week_start": "2025-12-08T00:00:00Z",
+          "closed": 60
+        },
+        {
+          "week_start": "2025-12-01T00:00:00Z",
+          "closed": 8
+        },
+        {
+          "week_start": "2025-11-24T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "CI=1 bd update langston-1yw4 --status in_progress --json",
+    "show_top": "CI=1 bd show langston-1yw4 --json",
+    "list_ready": "CI=1 bd ready --json",
+    "list_blocked": "CI=1 bd blocked --json",
+    "refresh_triage": "bv --robot-triage"
+  }
+}
